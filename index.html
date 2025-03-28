@@ -8,10 +8,17 @@
 </head>
 <body>
     <canvas id="meuCanvas"></canvas>
-    <div class="overlay-text">
+    <div class="texto">
         <h1>Oh no!</h1>
         <h2>Seems like you're lost!</h2>
         <h3>ERROR 404 - PAGE NOT FOUND</h3>
+    </div>
+    <div class="comandos">
+        <input type="range" class="qtdPontos" min="0" max="1000" value="500">
+        <div class="legenda">Quantidade de pontos</div>
+        <input type="range" class="vlcPontos" min="0.01" max="0.1" value="0.5" step="0.01">
+        <div class="legenda">Velocidade dos pontos</div>
+
     </div>
     <script src="script.js"></script>
 </body>
